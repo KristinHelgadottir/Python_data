@@ -7,5 +7,10 @@ https://www.kaggle.com/nandys/d/undp/human-development/human-development-report-
    * Inequality exist in developed countries, too.
 
 https://www.kaggle.com/biranjan/d/undp/human-development/exploring-the-countries-with-lower-hdi
-*	Which country has the highest HDI(Human Develpment Index) and which has the lowest? 
+*	Which country has the highest HDI (Human Development Index) and which has the lowest? 
 * Which country has raised its HDI the most, in the period 1990 to 2014?
+
+https://www.kaggle.com/rahulvks/d/ucsusa/active-satellites/activity-of-satelites-based-on-country-and-usage
+* Which is the poorest country with orbiting satellites?
+* Compare the usage of satellites, between a poor country and a rich one?
+
