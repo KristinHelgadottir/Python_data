@@ -4,9 +4,9 @@ https://www.kaggle.com/nandys/d/undp/human-development/human-development-report-
 * What is the life expectancy of Male and Female at birth, all over the world?
 * What is the extent of inequality and how much it affects different indexes of countries and of world?
 ** Inequality is inversely proportional to any rise in index points.
-*** Inequality exist in developed countries, too.
+** Inequality exist in developed countries, too.
 
 https://www.kaggle.com/biranjan/d/undp/human-development/exploring-the-countries-with-lower-hdi
-###	HDI Human Development Index
-##	Which country has the highest HDI and which has the lowest HDI? 
-## Which country has raised its HDI the most, in the period 1990 to 2014?
+**	HDI Human Development Index
+*	Which country has the highest HDI and which has the lowest HDI? 
+* Which country has raised its HDI the most, in the period 1990 to 2014?
