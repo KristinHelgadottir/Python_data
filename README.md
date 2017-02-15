@@ -2,7 +2,7 @@
 ## python dataset questions
 
 First dataset: 
-https://www.kaggle.com/biranjan/d/undp/human-development/exploring-the-countries-with-lower-hdi
+https://www.kaggle.com/undp/human-development
 *	Which country has the highest HDI (Human Development Index) and which has the lowest? 
 * Which country has raised its HDI the most, in the period 1990 to 2014?
 
