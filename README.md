@@ -12,5 +12,5 @@ https://www.kaggle.com/biranjan/d/undp/human-development/exploring-the-countries
 
 https://www.kaggle.com/rahulvks/d/ucsusa/active-satellites/activity-of-satelites-based-on-country-and-usage
 * Which is the poorest country with orbiting satellites?
-* Compare the usage of satellites, between a poor country and a rich one?
+* Compare the usage of satellites, between a poor country and a welthy one according to HDI?
 
