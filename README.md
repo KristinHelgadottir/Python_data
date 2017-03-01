@@ -1,7 +1,7 @@
-Target: [file.csv] (link to our reposetory or google drive)
+Target for webget: [file.csv] (link to our reposetory or google drive)
 
 
-## python dataset questions
+## Python dataset questions
 
 
 Source: https://www.kaggle.com/undp/human-development
