@@ -41,7 +41,6 @@ print("North America covers the {}% of the global sales".format(covarage))
 
 # Which game genre is the most popular in 2012?
 year_mask = (dd[:,3] == 2012)
-#genre_mask = (dd[:,4])  #---------------TODO
 g = np.max(dd[year_mask][:,4])
 msg = 'Most popular game genre in 2012 is {}'
 print(msg.format(g))
