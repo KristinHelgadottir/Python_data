@@ -54,6 +54,5 @@ top_100 = rank_row[0:100]
 
 top_pub = np.array()
 # text = '{} publisher has the most titles in top 100'
-# print(text.format(df.max()))
 print(top_pub)
 
