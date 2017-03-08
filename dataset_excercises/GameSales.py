@@ -7,7 +7,7 @@ import pprint
 import csv
 from urllib.parse import urlparse
 import pandas as pd
-import numpy as np
+import numpy as np # to initialize a one-dimensional NumPy array
 
 url = 'https://raw.githubusercontent.com/DaMexicanJustice/frantic_midnight/master/data%20sets/vgsales.csv'
 def download(url):
@@ -15,19 +15,17 @@ def download(url):
     return os.path.basename(urlparse(url).path)
 
 filename = './vgsales.csv'
-bef_stats_df = pd.read_csv(filename)
-bef_stats_df
-dd = bef_stats_df.as_matrix()
+stats_df = pd.read_csv(filename)
+dd = stats_df.as_matrix() # making data file as matrix
 
-region = {1: 'North America', 2: 'Europe Union', 3: 'Japan'}
 
 #Which platform is the most popular in the regions NA, EU and Japan?
+region = {1: 'North America', 2: 'Europe Union', 3: 'Japan'}
 pl_mask = (dd[:,2]) # ---------------- TODO platform mask
 # getting all the sales from NA, EU and JP
 na_keys = np.unique(dd[:,6]) 
 eu_keys = np.unique(dd[:,7]) 
 jp_keys = np.unique(dd[:,8]) 
-# print('NA_sales max: ', na_keys.max())
 
 msg = 'The highest sales in {} is {} on platform {}'
 print(msg.format(region[1], na_keys.max(), pl_mask))
