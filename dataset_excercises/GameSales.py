@@ -16,7 +16,7 @@ stats_df = pd.read_csv(filename)
 dd = stats_df.as_matrix() # making data file as matrix
 
 
-#Which platform is the most popular in the regions NA, EU and Japan?
+# Which platform is the most popular in the regions NA, EU and Japan?
 region = {1: 'North America', 2: 'Europe Union', 3: 'Japan'}
 pl_mask = (dd[:,2]) # ---------------- TODO platform mask
 # getting all the sales from NA, EU and JP
