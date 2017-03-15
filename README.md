@@ -12,9 +12,8 @@ Source: https://www.kaggle.com/undp/human-development
 
 Source: https://www.kaggle.com/ucsusa/active-satellites
 * which country has the most satelites for military usage?
+* how much does the lightest satelite weight?
 * Compare the usage of satelites, between a poor country and a welthy one according to HDI dataset (see first dataset)?
 
 From group: Enthusiastic phone: Diana, Kristin, Matyas
 
-
-i am sure i can commit and push
