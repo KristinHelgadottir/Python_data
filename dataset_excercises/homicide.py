@@ -22,10 +22,11 @@ print('The youngest victim ever was {} years old'.format(youngest_victim))
 
 # what is the averige age of victim?
 import csv #making sure it can read csv
-filename = 'database.csv' # naming the csv file object
-with open(filename) as file_object: #getting/opening the csv
+filename = 'database.csv' # nameing the csv file object
+
+with open(filename) as file_object: # opening the csv
     reader = csv.reader(file_object) # returns reader object that reads lines in file
-    header_row = next(reader) # first getting the headers line and so on/next
+    header_row = next(reader) # first getting the headers line and so-on/next line
 
     for i, v in enumerate(header_row): # starting from headers row
         print(i, v)
