@@ -1,3 +1,13 @@
+import os #os module
+import webget
+import pprint
+import csv
+from urllib.parse import urlparse
+import pandas as pd
+import numpy as np # to initialize a one-dimensional NumPy array
+import csv #making sure it can read csv
+
+
 # Which weapon is most used by men?
 males = (dd[:,15] == "Male")
 weapon1 = np.max(dd[:,20][males])
@@ -21,7 +31,6 @@ youngest_victim = np.min(dd[:,12])
 print('The youngest victim ever was {} years old'.format(youngest_victim))
 
 # what is the averige age of victim?
-import csv #making sure it can read csv
 filename = 'database.csv' # nameing the csv file object
 
 with open(filename) as file_object: # opening the csv
