@@ -1,6 +1,9 @@
-Target for webget: [human_development.csv](https://github.com/stinaanita/python_data/blob/master/human_development.csv)
+Target for webget for HDI: [human_development.csv](https://github.com/stinaanita/python_data/blob/master/human_development.csv)
 
-Target for webget: [database.csv](https://github.com/stinaanita/python_data/blob/master/database.csv)
+Target for webget for satelites: [database.csv](https://github.com/stinaanita/python_data/blob/master/database.csv)
+
+Target for webget for historical index: [historical_index.csv](https://github.com/stinaanita/python_data/blob/master/historical_index.csv)
+
 
 ## Python dataset questions
 
