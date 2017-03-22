@@ -97,3 +97,29 @@ for c in countries:
     my_array = []
     print("{} has {} satelites for military use".format(c, my_array_size))
    
+# 4.Wich country has the lightest satelite and how much does it weight?
+
+dd = pd.DataFrame(dd).fillna(0.0) # makes NaN into 0
+dd = np.array(dd)
+new_array = []
+
+
+def conv(val): # converting to floats ???
+    if not val:
+        return 0    
+    try:
+        return np.float64(val)
+    except:        
+        return np.float64(0)
+#data = pd.read_csv(file, converters={'Users':conv,'Dry mass':conv})
+
+
+for d in dd:
+    if d[16] == 0.0: # if in row 16 is null, pass
+        pass
+    else:
+        new_array.append(d)
+new_array = np.array(new_array)
+#pd.DataFrame(new_array)
+n = new_array[:,16]
+n
