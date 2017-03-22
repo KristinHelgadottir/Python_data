@@ -7,6 +7,7 @@ from urllib.parse import urlparse
 import pandas as pd # read data from a csv file, making dataframe object
 import numpy as np # to initialize a one-dimensional NumPy array
 
+
 # downloading dataset using webget
 sat_url = "https://github.com/stinaanita/python_data/blob/master/database.csv"
 #def download(sat_url):
@@ -33,8 +34,7 @@ for d in dd:
         print("{} has the highest Human Development Index".format(d[1])) #country col 1
     if d[2] == lowest_HDI:
         print("{} has the lowest Human Development Index".format(d[1]))
-        
-        
+         
 # OUTPUT:
 #0.9440000000000001
 #0.348
@@ -42,10 +42,9 @@ for d in dd:
 #Niger has the lowest Human Development Index
 
 
+# 2.Which country has raised its HDI the most, in the period 1990 to 2014?
 import ast # to parse string into float
 
-# 2.Which country has raised its HDI the most, in the period 1990 to 2014?
- 
 filename2 = './historical_index.csv'
 array_of_stats = pd.read_csv(filename2)
 array_of_stats
@@ -78,7 +77,6 @@ for e in my_array:
 
 
 # 3.Which country has the most satelites for military usage?
-
 dd2 = data.as_matrix()
 military = []
 for d in dd2:
@@ -96,9 +94,26 @@ for c in countries:
     my_array_size = len(my_array)
     my_array = []
     print("{} has {} satelites for military use".format(c, my_array_size))
-   
-# 4.Wich country has the lightest satelite and how much does it weight?
 
+# OUTPUT
+# Canada has 1 satelites for military use
+# China has 34 satelites for military use
+# France has 8 satelites for military use
+# France/Italy has 1 satelites for military use
+# France/Italy/Belgium/Spain/Greece has 2 satelites for military use
+# Germany has 7 satelites for military use
+# India has 4 satelites for military use
+# Israel has 5 satelites for military use
+# Italy has 1 satelites for military use
+# Russia has 54 satelites for military use
+# South Africa has 1 satelites for military use
+# Spain has 1 satelites for military use
+# Turkey has 1 satelites for military use
+# USA has 114 satelites for military use
+# United Kingdom has 8 satelites for military use
+    
+    
+# 4.Wich country has the lightest satelite and how much does it weight? -------- TODO
 dd = pd.DataFrame(dd).fillna(0.0) # makes NaN into 0
 dd = np.array(dd)
 new_array = []
@@ -111,8 +126,7 @@ def conv(val): # converting to floats ???
         return np.float64(val)
     except:        
         return np.float64(0)
-#data = pd.read_csv(file, converters={'Users':conv,'Dry mass':conv})
-
+data = pd.read_csv(file, converters={'Users':conv,'Dry mass':conv})
 
 for d in dd:
     if d[16] == 0.0: # if in row 16 is null, pass
