@@ -117,7 +117,6 @@ dd = pd.DataFrame(dd).fillna(0.0) # makes NaN into 0
 dd = np.array(dd)
 new_array = []
 
-
 def conv(val): # converting to floats ???
     if not val:
         return 0    
@@ -138,5 +137,5 @@ n = new_array[:,16]
 n
 
 
-# 5.Usage of satelites, between the 5 poorest and the 5 welthiest countries
+# 5.Usage of satelites, between the 5 poorest and the 5 welthiest countries --------- TODO
 import matplotlib.pyplot as plt
