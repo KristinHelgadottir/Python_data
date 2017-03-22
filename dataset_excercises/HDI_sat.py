@@ -1,5 +1,4 @@
 # importing all the nececary libraries
-
 import os # os module
 import webget
 import csv
@@ -137,3 +136,7 @@ new_array = np.array(new_array)
 #pd.DataFrame(new_array)
 n = new_array[:,16]
 n
+
+
+# 5.Usage of satelites, between the 5 poorest and the 5 welthiest countries
+import matplotlib.pyplot as plt
