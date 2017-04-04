@@ -1,8 +1,4 @@
 
-# coding: utf-8
-
-# In[1]:
-
 import webget as wg
 import pandas as pd, numpy as np, csv
 import matplotlib.pyplot as plt
@@ -14,8 +10,6 @@ data_set = pd.read_csv(filename)
 dd = data_set.as_matrix()
 #data_set
 
-
-# In[2]:
 
 # 1.
 data = "befkbhalderkoencivst.csv"
@@ -55,8 +49,6 @@ print("Females age 50 and over: "  ,lady)
 print("Males age 50 and over: " ,gent)
 
 
-# In[3]:
-
 # 2.
 # Use matplotlib to plot a bar-char showing how many single males and females 
 # of age 18 to 30, are living in BYDEL 1=Indre By, 2=Østerbro and 3=Nørrebro 
@@ -89,8 +81,6 @@ print("total single man in Indre By, age 18 to 30:",single_men)
 print("total single females in Indre By, age 18 to 30:",single_fem)
 
 
-# In[119]:
-
 # 3.
 # Find the three most populated city parts(BYDEL), in 1992, 2000 and 2015
 import operator as op
@@ -120,17 +110,3 @@ for p in popultaion_arr:
 
 plt.plot(sorted_p, years, linewidth=10, color='red')
 plt.show()
-
-
-# In[ ]:
-
-# 4.
-# Create to pie-charts, showing the distribution of marital status' 
-# in bydel 1, 2 and 3 in year 2000 and 2015
-
-
-# In[ ]:
-
-# 5.
-# Make a histogram of the age distribution in all of the municipality of Copenhangen
-
