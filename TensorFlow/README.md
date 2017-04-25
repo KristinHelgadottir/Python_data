@@ -1,6 +1,9 @@
-# README.md file that presents our solution, each result per questions, and it explains how to run our code to reproduce our results.  
+# Train a neural network
 
-We are not shure what questions we are suposed to answer, but here is a description on how far we have come.
+In this excercise, the neural network takes in handwritten digits and classifies them.
+It does so based on internal variables ("weights" and "biases") that need to have a correct value for the classification to work well. This "correct value" is learned through a training process.
+
+We are not sure what questions we are suposed to answer, but here is a description on how far we have come.
 
 We managed to get the console tests working and print the tests out, but lost the abillity along the way (during installations).
 Picture to proove it :-) .  
