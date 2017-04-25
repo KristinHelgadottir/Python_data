@@ -23,7 +23,7 @@ init = tf.initialize_all_variables()
 
 
 
-# ------------------------------------------- 1-LAYER MODEL
+# ------------------------------------------- 1-LAYER MODEL Y = softmax( X * W + b)
 # model for 1-layer neural network
 Y = tf.nn.softmax(tf.matmul(tf.reshape(X, [-1, 784]), W) + b)
 # tf.reshape = transforms 28x28 images into single vectors of 784 pixels
