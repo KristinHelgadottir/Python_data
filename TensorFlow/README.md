@@ -7,6 +7,7 @@ It does so based on internal variables ("weights" and "biases") that need to hav
 ```Terminal
 Training digits => updates to weights and biases => better recognition (loop)
 ```
+To drive the training, we will define a loss function, that is a value representing how badly the system recognises the digits and try to minimise it.
 
 ## Comments:
 We are not sure what questions we are suposed to answer, but here is a description on how far we have come.
