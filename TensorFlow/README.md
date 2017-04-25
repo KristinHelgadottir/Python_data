@@ -3,6 +3,7 @@
 In this excercise, the neural network takes in handwritten digits and classifies them.   
 It does so based on internal variables ("weights" and "biases") that need to have a correct value for the classification to work well. This "correct value" is learned through a training process.   
 
+
 ## Theory
 Each "neuron" in a neural network does a weighted sum of all of its inputs, adds a constant called the "bias" and then feeds the result through some non-linear activation function.   
 
@@ -33,6 +34,9 @@ Y_ = tf.placeholder(tf.float32, [None, 10])
 cross_entropy = -tf.reduce_sum(Y_ * tf.log(Y))
 ```
 
+## Neural network layers
+To improve the recognition accuracy we add more layers to the neural network.   
+The neurons in the second layer, instead of computing weighted sums of pixels, will compute weighted sums of neuron outputs from the previous layer. 
 
 ## Comments
 We are not sure what questions we are suposed to answer, but here is a description on how far we have come.
