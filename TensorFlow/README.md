@@ -13,12 +13,13 @@ The computed sum of all the pixels of the first image using the first column of 
 
 Each neuron must now add its bias (a constant). Since we have 10 neurons, we have 10 bias constants. Bias must be added to each line of the previously computed matrix.   
 
-## Formula describing a 1-layer neural network, applied to 100 images:
+Formula describing a 1-layer neural network, applied to 100 images:
 
 ![alt tag](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/img/206327168bc85294.png)
 
 
 ## Training loop
+"Training" the neural network means using training images and labels to adjust weights and biases so as to minimise the cross-entropy loss function.  
 ```Terminal
 Training digits => updates to weights and biases => better recognition (loop)
 ```
