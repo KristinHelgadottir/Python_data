@@ -2,8 +2,8 @@
 
 We are not shure what questions we are suposed to answer, but here is a description on how far we have come.
 
-We managed to get the console tests working and print the tests out, but lost the abillity along the way(during installations).
-Picture to proove it :-).  
+We managed to get the console tests working and print the tests out, but lost the abillity along the way (during installations).
+Picture to proove it :-) .  
 https://cloud.githubusercontent.com/assets/14107391/25379181/7d164a9a-29ac-11e7-890e-dfd8ba86ed7f.png.  
 The code ran when we executed the command:
 ```Terminal
