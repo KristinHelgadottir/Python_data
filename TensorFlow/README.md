@@ -3,6 +3,12 @@
 In this excercise, the neural network takes in handwritten digits and classifies them.
 It does so based on internal variables ("weights" and "biases") that need to have a correct value for the classification to work well. This "correct value" is learned through a training process.
 
+# Training loop:
+```Terminal
+Training digits => updates to weights and biases => better recognition (loop)
+```
+
+
 We are not sure what questions we are suposed to answer, but here is a description on how far we have come.
 
 We managed to get the console tests working and print the tests out, but lost the abillity along the way (during installations).
