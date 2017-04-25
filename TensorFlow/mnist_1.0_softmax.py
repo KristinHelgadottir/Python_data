@@ -30,6 +30,8 @@ Y_ = tf.placeholder(tf.float32, [None, 10])# correct answers will go here
 W = tf.Variable(tf.zeros([784, 10]))# weights W[784, 10]   784=28*28
 b = tf.Variable(tf.zeros([10]))# biases b[10]
 
+
+
 # an additional weights matrix and an additional bias vector for the intermediate layer
 W1 = tf.Variable(tf.truncated_normal([28*28, 200] ,stddev=0.1))
 B1 = tf.Variable(tf.zeros([200]))
@@ -41,6 +43,9 @@ XX = tf.reshape(X, [-1, 28*28])
 
 Y1 = tf.nn.sigmoid(tf.matmul(XX, W1) + B1)
 Y  = tf.nn.softmax(tf.matmul(Y1, W2) + B2)
+
+
+
 # The model for 1- layered neural network
 #Y = tf.nn.softmax(tf.matmul(XX, W) + b)
 
@@ -76,7 +81,6 @@ I = tensorflowvisu.tf_format_mnist_images(X, Y, Y_)  # assembles 10x10 images by
 It = tensorflowvisu.tf_format_mnist_images(X, Y, Y_, 1000, lines=25)  # 1000 images on 25 lines
 #datavis = tensorflowvisu.MnistDataVis()
 
-# init
 init = tf.global_variables_initializer()
 sess = tf.Session()
 sess.run(init)
