@@ -21,5 +21,5 @@ python3 mnist_1.0_softmax.py
 ```
 Now we only get errors :( .   
 
-Failed to load the native TensorFlow runtime.
+Failed to load the native TensorFlow runtime.   
 https://cloud.githubusercontent.com/assets/14107391/25379891/a68c0322-29ae-11e7-83e9-9f5bdd7cd184.png
