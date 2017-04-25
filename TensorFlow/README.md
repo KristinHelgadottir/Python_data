@@ -47,7 +47,7 @@ B1 = tf.Variable(tf.zeros([200]))
 W2 = tf.Variable(tf.truncated_normal([200, 10], stddev=0.1))
 B2 = tf.Variable(tf.zeros([10]))
 ```
-And now change your 1-layer model into a 2-layer model:
+Change 1-layer model into a 2-layer model:
 ```Python
 XX = tf.reshape(X, [-1, 28*28])
 
