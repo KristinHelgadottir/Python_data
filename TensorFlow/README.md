@@ -6,7 +6,7 @@ It does so based on internal variables ("weights" and "biases") that need to hav
 
 Each "neuron" in a neural network does a weighted sum of all of its inputs, adds a constant called the "bias" and then feeds the result through some non-linear activation function.   
 
-![alt tag](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/img/d5222c6e3d15770a.png)
+![alt tag](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/img/21dabcf6d44e4d6f.png)
 
 ## Training loop:
 ```Terminal
