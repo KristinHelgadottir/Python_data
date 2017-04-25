@@ -37,6 +37,8 @@ cross_entropy = -tf.reduce_sum(Y_ * tf.log(Y))
 ## Adding layers
 To improve the recognition accuracy we add more layers to the neural network.   
 The neurons in the second layer, instead of computing weighted sums of pixels, will compute weighted sums of neuron outputs from the previous layer.   
+
+
 To add a layer, we need an additional weights matrix and an additional bias vector for the intermediate layer:
 ```Python
 W1 = tf.Variable(tf.truncated_normal([28*28, 200] ,stddev=0.1))
@@ -45,6 +47,7 @@ B1 = tf.Variable(tf.zeros([200]))
 W2 = tf.Variable(tf.truncated_normal([200, 10], stddev=0.1))
 B2 = tf.Variable(tf.zeros([10]))
 ```
+
 
 ## Comments
 We are not sure what questions we are suposed to answer, but here is a description on how far we have come.
