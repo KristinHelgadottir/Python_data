@@ -1,7 +1,12 @@
 # Train a neural network
 
 In this excercise, the neural network takes in handwritten digits and classifies them.   
-It does so based on internal variables ("weights" and "biases") that need to have a correct value for the classification to work well. This "correct value" is learned through a training process.
+It does so based on internal variables ("weights" and "biases") that need to have a correct value for the classification to work well. This "correct value" is learned through a training process.   
+
+
+Each "neuron" in a neural network does a weighted sum of all of its inputs, adds a constant called the "bias" and then feeds the result through some non-linear activation function.   
+
+![alt tag](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/img/d5222c6e3d15770a.png)
 
 ## Training loop:
 ```Terminal
@@ -17,6 +22,7 @@ Y_ = tf.placeholder(tf.float32, [None, 10])
 
 cross_entropy = -tf.reduce_sum(Y_ * tf.log(Y))
 ```
+
 
 ## Comments:
 We are not sure what questions we are suposed to answer, but here is a description on how far we have come.
