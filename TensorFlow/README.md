@@ -7,9 +7,16 @@ It does so based on internal variables ("weights" and "biases") that need to hav
 Each "neuron" in a neural network does a weighted sum of all of its inputs, adds a constant called the "bias" and then feeds the result through some non-linear activation function.   
 
 
-The computed sum of all the pixels of the first image using the first column of weights in the weights matrix W, coresponds to the first neuron. Using the second column of weights, we do the same for the second neuron and so on until the 10th neuron. We use 10 neurons, one for each number to recognise from x amount of pictures.
+The computed sum of all the pixels of the first image using the first column of weights in the weights matrix W, coresponds to the first neuron. Using the second column of weights, we do the same for the second neuron and so on until the 10th neuron. We use 10 neurons, one for each number to recognise from x amount of pictures.   
 
 ![alt tag](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/img/21dabcf6d44e4d6f.png)
+
+Each neuron must now add its bias (a constant). Since we have 10 neurons, we have 10 bias constants. Bias must be added to each line of the previously computed matrix.   
+
+Formula describing a 1-layer neural network, applied to 100 images:
+
+![alt tag](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/img/206327168bc85294.png)
+
 
 ## Training loop
 ```Terminal
