@@ -8,7 +8,7 @@ It does so based on internal variables ("weights" and "biases") that need to hav
 Training digits => updates to weights and biases => better recognition (loop)
 ```
 
-
+### Comments:
 We are not sure what questions we are suposed to answer, but here is a description on how far we have come.
 
 We managed to get the console tests working and print the tests out, but lost the abillity along the way (during installations).
