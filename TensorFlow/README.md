@@ -47,7 +47,13 @@ B1 = tf.Variable(tf.zeros([200]))
 W2 = tf.Variable(tf.truncated_normal([200, 10], stddev=0.1))
 B2 = tf.Variable(tf.zeros([10]))
 ```
+And now change your 1-layer model into a 2-layer model:
+```Python
+XX = tf.reshape(X, [-1, 28*28])
 
+Y1 = tf.nn.sigmoid(tf.matmul(XX, W1) + B1)
+Y  = tf.nn.softmax(tf.matmul(Y1, W2) + B2)
+```
 
 ## Comments
 We are not sure what questions we are suposed to answer, but here is a description on how far we have come.
