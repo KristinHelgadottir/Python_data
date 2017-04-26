@@ -13,7 +13,7 @@ The computed sum of all the pixels of the first image using the first column of 
 
 Each neuron must now add its bias (a constant). Since we have 10 neurons, we have 10 bias constants. Bias must be added to each line of the previously computed matrix.   
 
-Softmax formula describing a 1-layer neural network, applied to 100 images:
+Softmax formula describing a 1-layer neural network:
 
 ![alt tag](https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/img/206327168bc85294.png)
 
@@ -22,7 +22,7 @@ Softmax formula describing a 1-layer neural network, applied to 100 images:
 ```Terminal
 Training digits and labels => loss function => gradient (partial derivatives) => steepest descent => update weights and biases => repeat with next mini-batch of training images and labels
 ```
-"Training" the neural network means using training images and labels to adjust weights and biases so as to minimise the cross-entropy loss function (function of weights, biases, pixels of the training image and its known label).  
+"Training" the neural network means using training images and labels to adjust weights and biases so to minimise the cross-entropy loss function (function of weights, biases, pixels of the training image and its known label).  
 To drive the training, we will define a loss function, that is a value representing how badly the system recognises the digits and try to minimise it.
 ```Python
 Y = tf.nn.softmax(tf.matmul(tf.reshape(X, [-1, 784]), W) + b)
