@@ -1,4 +1,4 @@
-# Train a neural network
+# Train a neural network with activation function Softmax
 
 In this excercise, the neural network takes in handwritten digits and classifies them.   
 It does so based on internal variables ("weights" and "biases") that need to have a correct value for the classification to work well. This "correct value" is learned through a training process.   
