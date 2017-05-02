@@ -30,6 +30,7 @@ import numpy as np
 i = Image.open('sample_images/dot.png')
 etc...
 ```
+3. TODO
 
 
 ### Packages we will use:
