@@ -2,10 +2,10 @@
 
 
 Image and pattern recognition can allow computers to translate written text on paper into digital text, 
-it can help machine vision, robots and other devices can recognize people and objects or areas.  
+it can help machine vision, robots and other devices to recognize people and objects or areas.  
 
 Our goal is to use machine learning, in the form of pattern recognition, to teach our program how to recognise different
-abstract shapes and calculate relation between the different values in the shape.  
+abstract shapes and calculate relation between the values in the shape.  
 
 * TensorFlow - for machine learning. 
 * Matplotlib - package for plotting. 
