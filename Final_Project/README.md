@@ -4,12 +4,18 @@
 Image and pattern recognition can allow computers to translate written text on paper into digital text, 
 it can help machine vision, robots and other devices to recognize people and objects or areas.  
 
-Our goal is to use machine learning, in the form of pattern recognition, to teach our program how to recognise different
-abstract shapes and calculate relation between the values in the shape.   
 
 ![alt tag](https://behavior.lbl.gov/sites/behavior.lbl.gov/files/data_mining.png)
 
 Data Mining - process of analyzing data from different perspectives and summarizing it into useful information.  
+
+
+
+Our goal is to use machine learning, in the form of pattern recognition, to teach our program how to recognise different
+abstract shapes and calculate relation between the values in the shape and indifferences.   
+
+
+![alt tag](https://static.wixstatic.com/media/e4cc5f_5553e39727ac4ce1ab9179a0f3bff452~mv2.png/v1/fill/w_561,h_198,al_c,usm_0.66_1.00_0.01/e4cc5f_5553e39727ac4ce1ab9179a0f3bff452~mv2.png)
 
 
 
