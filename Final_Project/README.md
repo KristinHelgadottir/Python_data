@@ -28,12 +28,10 @@ From https://orbitalinsight.com/solutions/agriculture/
 from PIL import Image
 import numpy as np
 
-i = Image.open('sample_images/dot.png')
 etc...
 ```
-3. Opening image as 3-dimensional array of the data. The higher the number, the more solid the color is, the lower the number, the more transparent it is.  
+3. TODO
 
-4.  TODO
 
 ### Packages we will use:
 * TensorFlow - for machine learning. 
