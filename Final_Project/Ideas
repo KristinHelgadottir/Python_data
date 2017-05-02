@@ -1,12 +1,7 @@
 1. Pattern recognition with machine learning.
 
-TensorFlow - for machine learning
-Matplotlib - package for plotting
-Numpy - package for mathematical calculations
-MeanShift, KMeans for finding colour clusters
-OpenCV - computer vision and machine learning software library
-
-
 2. Web-crawl / search help, collects data/info with specific search words, mini search engine.
 
 3. Satellite image processing to read data.
+
+Python is a single-threaded language, meaning, each script will only use a single cpu (usually it uses a single cpu core, and sometimes even just half or a quarter, or worse, of that core).
