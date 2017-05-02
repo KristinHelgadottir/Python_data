@@ -1,4 +1,4 @@
-1. Pattern recognition with machine learning.
+### 1. Pattern recognition with machine learning.
 
 * TensorFlow - for machine learning. 
 * Matplotlib - package for plotting. 
@@ -7,6 +7,6 @@
 * OpenCV - computer vision and machine learning software library. 
 
 
-2. Web-crawl / search help, collects data/info with specific search words, mini search engine.
+### 2. Web-crawl / search help, collects data/info with specific search words, mini search engine.
 
-3. Satellite image processing to read data.
+### 3. Satellite image processing to read data.
