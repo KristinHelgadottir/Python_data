@@ -1,4 +1,4 @@
-### Pattern recognition with machine learning.
+# Pattern recognition with machine learning.
 
 
 Image and pattern recognition can allow computers to translate written text on paper into digital text, 
@@ -9,7 +9,7 @@ Data Mining - process of analyzing data from different perspectives and summariz
 ![alt tag](https://behavior.lbl.gov/sites/behavior.lbl.gov/files/data_mining.png)
 
 
-
+### Goal
 Our goal is to use machine learning, in the form of pattern recognition, to teach our program how to recognise different
 abstract shapes and calculate relation between the values in the shape and indifferences.   
 
