@@ -7,9 +7,18 @@ it can help machine vision, robots and other devices to recognize people and obj
 Our goal is to use machine learning, in the form of pattern recognition, to teach our program how to recognise different
 abstract shapes and calculate relation between the values in the shape.  
 
+
+Steps we need to do:
+1. Getting sample documents/images and placing the "sample_images" folder where the script will be. Within that folder, we have some simple images with shapes, that we'll be using to feed the machine learning.
+
+
+2. Once we have that, we're going to need the Python programming language. We are using Python 3.
+
+
+Packages we will use:
 * TensorFlow - for machine learning. 
 * Matplotlib - package for plotting. 
 * Numpy - package for mathematical calculations. 
 * MeanShift, KMeans for finding colour clusters. 
 * OpenCV - computer vision and machine learning software library. 
-
+* Pillow - Python Imaging Library ?
