@@ -17,12 +17,11 @@ Is there indifferences (in color?) in the shape/image and if yes, what kind and 
 
 ![alt tag](https://static.wixstatic.com/media/e4cc5f_5553e39727ac4ce1ab9179a0f3bff452~mv2.png/v1/fill/w_561,h_198,al_c,usm_0.66_1.00_0.01/e4cc5f_5553e39727ac4ce1ab9179a0f3bff452~mv2.png)
 
-from https://orbitalinsight.com/solutions/agriculture/
+From https://orbitalinsight.com/solutions/agriculture/
 
 
 ### Steps we need to do:
 1. Getting sample documents/images and placing the "sample_images" folder where the script will be. Within that folder, we have some simple images with shapes, that we'll be using to feed the machine learning.
-
 
 2. Once we have sample data, we're going to need the Python programming language, we are using Python 3. Set up the work enviorement with importing the nececary modules and open the image using our image processor.
 ```Python
@@ -32,8 +31,7 @@ import numpy as np
 i = Image.open('sample_images/dot.png')
 etc...
 ```
-3. Opening image as 3-dimensional array of the data, The higher the number, the more solid the color is, the lower the number, the more transparent it is.  
-
+3. Opening image as 3-dimensional array of the data. The higher the number, the more solid the color is, the lower the number, the more transparent it is.  
 
 4. TODO
 
