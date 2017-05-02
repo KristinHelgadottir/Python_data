@@ -13,8 +13,13 @@ abstract shapes and calculate relation between the values in the shape.
 1. Getting sample documents/images and placing the "sample_images" folder where the script will be. Within that folder, we have some simple images with shapes, that we'll be using to feed the machine learning.
 
 
-2. Once we have that, we're going to need the Python programming language. We are using Python 3.
+2. Once we have that, we're going to need the Python programming language, we are using Python 3. Set up the work enviorement with importing the nececary modules.
+```Python
+from PIL import Image
+import numpy as np
 
+etc...
+```
 
 
 ### Packages we will use:
@@ -24,7 +29,4 @@ abstract shapes and calculate relation between the values in the shape.
 * MeanShift, KMeans for finding colour clusters. 
 * OpenCV - computer vision and machine learning software library. 
 * Pillow - Python Imaging Library ?
-```Python
-from PIL import Image
-import numpy as np
-```
+
