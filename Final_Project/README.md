@@ -7,6 +7,7 @@ it can help machine vision, robots and other devices to recognize people and obj
 Our goal is to use machine learning, in the form of pattern recognition, to teach our program how to recognise different
 abstract shapes and calculate relation between the values in the shape.   
 
+![alt tag](https://behavior.lbl.gov/sites/behavior.lbl.gov/files/data_mining.png)
 
 
 ### Steps we need to do:
