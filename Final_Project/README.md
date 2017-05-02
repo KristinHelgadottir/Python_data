@@ -33,8 +33,7 @@ etc...
 ```
 3. Opening image as 3-dimensional array of the data. The higher the number, the more solid the color is, the lower the number, the more transparent it is.  
 
-4. TODO
-
+4.  TODO
 
 ### Packages we will use:
 * TensorFlow - for machine learning. 
@@ -43,4 +42,3 @@ etc...
 * MeanShift, KMeans for finding colour clusters. 
 * OpenCV - computer vision and machine learning software library. 
 * Pillow - Python Imaging Library ?
-
