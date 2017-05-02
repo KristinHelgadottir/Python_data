@@ -11,7 +11,8 @@ Data Mining - process of analyzing data from different perspectives and summariz
 
 ### Goal
 Our goal is to use machine learning, in the form of pattern recognition, to teach our program how to recognise different
-abstract shapes and calculate relation between the values in the shape and indifferences.   
+abstract shapes and calculate relation between the values in the shape and indifferences.  
+Is there indifferences (in color?) in the shape/image and if yes, what kind and how big. Possible plotting :)
 
 
 ![alt tag](https://static.wixstatic.com/media/e4cc5f_5553e39727ac4ce1ab9179a0f3bff452~mv2.png/v1/fill/w_561,h_198,al_c,usm_0.66_1.00_0.01/e4cc5f_5553e39727ac4ce1ab9179a0f3bff452~mv2.png)
