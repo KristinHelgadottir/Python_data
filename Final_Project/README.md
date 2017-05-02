@@ -3,11 +3,10 @@
 
 Image and pattern recognition can allow computers to translate written text on paper into digital text, 
 it can help machine vision, robots and other devices to recognize people and objects or areas.  
+Data Mining - process of analyzing data from different perspectives and summarizing it into useful information.  
 
 
 ![alt tag](https://behavior.lbl.gov/sites/behavior.lbl.gov/files/data_mining.png)
-
-Data Mining - process of analyzing data from different perspectives and summarizing it into useful information.  
 
 
 
