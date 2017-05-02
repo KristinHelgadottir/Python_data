@@ -9,6 +9,7 @@ abstract shapes and calculate relation between the values in the shape.
 
 ![alt tag](https://behavior.lbl.gov/sites/behavior.lbl.gov/files/data_mining.png)
 
+Data Mining = The process of analyzing data from different perspectives and summarizing it into useful information
 
 ### Steps we need to do:
 1. Getting sample documents/images and placing the "sample_images" folder where the script will be. Within that folder, we have some simple images with shapes, that we'll be using to feed the machine learning.
