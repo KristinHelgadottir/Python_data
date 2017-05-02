@@ -4,4 +4,6 @@
 
 3. Satellite image processing to read data.
 
-Python is a single-threaded language, meaning, each script will only use a single cpu (usually it uses a single cpu core, and sometimes even just half or a quarter, or worse, of that core).
+
+Python is a single-threaded language, meaning, each script will only use a single cpu 
+(usually it uses a single cpu core, and sometimes even just half or a quarter, or worse, of that core).
