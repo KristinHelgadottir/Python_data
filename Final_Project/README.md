@@ -22,7 +22,7 @@ Is there indifferences (in color?) and if yes, what kind and how big. Possible p
 
 
 ### Steps we need to do:
-1. Getting sample documents/images and placing the "sample_images" folder where the script will be. Within that folder, we have some simple images with shapes, that we'll be using to feed the machine learning.
+1. Getting sample video/images.
 
 2. Once we have sample data, we're going to need the Python programming language, we are using Python 3. Set up the work enviorement with importing the nececary modules and open the image using our image processor.
 ```Python
