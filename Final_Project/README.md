@@ -26,15 +26,8 @@ Is there indifferences (in color?) and if yes, what kind and how big. Possible p
 
 2. Once we have sample data, we're going to need the Python programming language and OpenCV. Set up the work enviorement with importing the nececary modules. Work enviorement has to be in the same folder as the sample data/videos.
 ```Python
-# Python 2/3 compatibility
-from __future__ import print_function
-
 import numpy as np
 import cv2
-
-# local modules
-from video import create_capture
-from common import clock, draw_str
 
 etc...
 ```
