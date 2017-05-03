@@ -1,8 +1,11 @@
-1. Pattern recognition with machine learning.
+Pattern recognition with machine learning.
 
 image segmentation - 
 unsupervised learning - no lable on data, finding clusters by color indiferences
-clone openCV source code - face recognition
+
+clone openCV source code - face recognition:
+https://github.com/opencv/opencv/blob/master/samples/python/facedetect.py
+
 wich faces are recognized the fastest
 pigment differences between recognized faces (plotting, clusters)
 
