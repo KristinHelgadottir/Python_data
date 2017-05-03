@@ -24,10 +24,17 @@ Is there indifferences (in color?) and if yes, what kind and how big. Possible p
 ### Steps we need to do:
 1. Getting sample video/images.
 
-2. Once we have sample data, we're going to need the Python programming language, we are using Python 3. Set up the work enviorement with importing the nececary modules and open the image using our image processor.
+2. Once we have sample data, we're going to need the Python programming language, OpenCV. Set up the work enviorement with importing the nececary modules.
 ```Python
-from PIL import Image
+# Python 2/3 compatibility
+from __future__ import print_function
+
 import numpy as np
+import cv2
+
+# local modules
+from video import create_capture
+from common import clock, draw_str
 
 etc...
 ```
