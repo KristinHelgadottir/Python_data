@@ -24,7 +24,7 @@ Is there indifferences (in color?) and if yes, what kind and how big. Possible p
 ### Steps we need to do:
 1. Getting sample video/images.
 
-2. Once we have sample data, we're going to need the Python programming language, OpenCV. Set up the work enviorement with importing the nececary modules.
+2. Once we have sample data, we're going to need the Python programming language and OpenCV. Set up the work enviorement with importing the nececary modules. Work enviorement has to be in the same folder as the sample data/videos.
 ```Python
 # Python 2/3 compatibility
 from __future__ import print_function
@@ -42,10 +42,10 @@ etc...
 
 
 ### Packages we will use:
-* TensorFlow - for machine learning. 
+* OpenCV - computer vision and machine learning software library.  
 * Matplotlib - package for plotting. 
 * Numpy - package for mathematical calculations. 
 * MeanShift, KMeans for finding colour clusters. 
-* OpenCV - computer vision and machine learning software library. 
+* TensorFlow - for machine learning.
 * Pillow - Python Imaging Library ?
 * Thresholding - thresholding any pixel as black if it is any darker or white if it is lighter then average ?
