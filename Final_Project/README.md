@@ -40,3 +40,4 @@ etc...
 * MeanShift, KMeans for finding colour clusters. 
 * OpenCV - computer vision and machine learning software library. 
 * Pillow - Python Imaging Library ?
+* Thresholding - thresholding any pixel as black if it is any darker or white if it is lighter then average ?
