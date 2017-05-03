@@ -10,14 +10,15 @@ Data Mining - The process of analyzing data from different perspectives and summ
 
 
 ### Goal
-Our goal is to use machine learning, in the form of pattern recognition, to teach our program how to recognise different
-abstract shapes and calculate relation between the values in the shape and indifferences.  
-Is there indifferences (in color?) in the shape/image and if yes, what kind and how big. Possible plotting :)
+Our goal is to use machine learning, in the form of pattern recognition, to teach our program how to recognise faces and calculate relation between the pigment indifferences in face and wich faces are recognized faster.  
 
 
-![alt tag](https://static.wixstatic.com/media/e4cc5f_5553e39727ac4ce1ab9179a0f3bff452~mv2.png/v1/fill/w_561,h_198,al_c,usm_0.66_1.00_0.01/e4cc5f_5553e39727ac4ce1ab9179a0f3bff452~mv2.png)
 
-From https://orbitalinsight.com/solutions/agriculture/
+Is there indifferences (in color?) and if yes, what kind and how big. Possible plotting :)
+
+
+![alt tag](https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fsophosnews.files.wordpress.com%2F2015%2F02%2Fface-detection_550.jpg%3Fw%3D640&f=1)
+
 
 
 ### Steps we need to do:
