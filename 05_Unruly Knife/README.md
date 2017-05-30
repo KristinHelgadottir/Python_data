@@ -32,6 +32,6 @@ The dataset provided contains ~174.000 observations from 1992 - 2015.
 2000 - Osterbro
 2015 - Osterbro
 ```
-4. Create to pie-charts, showing the distribution of marital status' in bydel 1, 2 and 3 in year 2000 and 2015
+4. We created two pie-charts, showing the distribution of marital status' in bydel 1, 2 and 3 in year 2000 and 2015
 
-5. We made a histogram of the age distribution in all of the municipality of Copenhangen
+5. We made a histogram of the age distribution in all of the municipality of Copenhangen.
