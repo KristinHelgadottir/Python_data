@@ -42,5 +42,5 @@ didnt manage to show pie-chart
 ```
 5. We made a histogram of the age distribution in all of the municipality of Copenhangen.
 ```Terminal
-(prob_5.png)
+(prob5.png)
 ```
