@@ -1,7 +1,8 @@
 # Distribution of the marital status' of the inhabitants Copenhagen
 
-The dataset provided contains ~174.000 observations from 1992 - 2015.
-Columns:
+The dataset provided contains ~174.000 observations from 1992 - 2015.  
+
+## Columns:
 * AAR: Which year the observation was made
 
 * BYDEL: Which part of the city, described by an integer contained in following dict; 1=Indre By, 2=Østerbro, 3=Nørrebro, 4=Vesterbro/Kgs. Enghave, 5=Valby, 6=Vanløse, 7=Brønshøj-Husum, 8=Bispebjerg, 9=Amager Øst, 10=Amager Vest, 99=Udenfor inddeling
@@ -14,7 +15,7 @@ Columns:
 
 * PERSONER: Number of observations with the given features of the row.
 
-Excercise:
+## Excercise:
 1. We use matplotlib to show the distribution of the following four categories over the time of 1992 - 2015
 ```Terminal
   - Males between age 18 and 30
@@ -29,4 +30,4 @@ Excercise:
 
 4. Create to pie-charts, showing the distribution of marital status' in bydel 1, 2 and 3 in year 2000 and 2015
 
-5. Make a histogram of the age distribution in all of the municipality of Copenhangen
+5. We made a histogram of the age distribution in all of the municipality of Copenhangen
