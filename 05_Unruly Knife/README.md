@@ -27,6 +27,9 @@ The dataset provided contains ~174.000 observations from 1992 - 2015.
 2. We use matplotlib to plot a bar-char showing how many single males and females of age 18 to 30, are living in BYDEL 1, 2 and 3 over the time 1992 - 2015
 
 3. Find the three most populated city parts(BYDEL), in 1992, 2000 and 2015
+1992 - Norrebro
+2000 - Osterbro
+2015 - Osterbro
 
 4. Create to pie-charts, showing the distribution of marital status' in bydel 1, 2 and 3 in year 2000 and 2015
 
