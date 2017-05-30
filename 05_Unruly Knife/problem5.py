@@ -1,12 +1,18 @@
-import os
+from __future__ import division
 import requests
+import os
 import csv
+from pprint import pprint
+import matplotlib.pyplot as plt
+import numpy as np
+import collections
+from pylab import *
+import warnings
+warnings.filterwarnings('ignore')
 import matplotlib
 matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 
-url = 'http://data.kk.dk/dataset/9070067f-ab57-41cd-913e-bc37bfaf9acd/resource/9fbab4aa-1ee0-4d25-b2b4-b7b63537d2ec/download/befkbhalderkoencivst.csv'
-filename = url.split('/')[-1]
+
 
 # if dataset does not exist locally, download it
 if not os.path.exists(filename):
