@@ -20,5 +20,5 @@ problem4.png
 ```
 5. What was the survival rate (how many died / how many survived) for substantially damaged AND destroyed aircrafts since 1993, showing data for each year. Show results on a stacked bar plot. (see more in notebook 14 - Intro to plotting / example 62.)
 ```Terminal
-
+Due to time contraint and the complexity of the question, we where unable to finish.
 ```
