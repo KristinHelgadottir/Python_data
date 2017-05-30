@@ -18,10 +18,10 @@ The dataset provided contains ~174.000 observations from 1992 - 2015.
 ## Excercise:
 1. We use matplotlib to show the distribution of the following four categories over the time of 1992 - 2015
 ```Terminal
-  - Males between age 18 and 30
-  - Females between age 18 and 30
-  - Males age 50+
-  - Females age 50+
+  - Males between age 18 and 30 (prob1_1.png)
+  - Females between age 18 and 30 (prob1_2.png)
+  - Males age 50+ (prob1_3.png)
+  - Females age 50+ (prob1_4.png)
 ```
 
 2. We use matplotlib to plot a bar-char showing how many single males and females of age 18 to 30, are living in BYDEL 1, 2 and 3 over the time 1992 - 2015
@@ -35,3 +35,6 @@ The dataset provided contains ~174.000 observations from 1992 - 2015.
 4. We created two pie-charts, showing the distribution of marital status' in bydel 1, 2 and 3 in year 2000 and 2015
 
 5. We made a histogram of the age distribution in all of the municipality of Copenhangen.
+```Terminal
+(prob5.png)
+```
